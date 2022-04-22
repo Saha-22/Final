@@ -29,7 +29,7 @@ function loadMeal(data) {
 
 
     container.innerHTML =
-        `<p><b>Recipe ID:</b> ${id} </p>
+        `<p><b> <br>Recipe ID:</b> ${id} </p>
                          <p><b> ${title} </b></p>
                          <img src="${imgLink}" >
                         <p><br> <b> Cooking Instructions: </b> ${instruction} </p>`
